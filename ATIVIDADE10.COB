@@ -5,11 +5,11 @@
        WORKING-STORAGE SECTION.  
        
        01 CODIGO-BARRA.  
-          05 PRODUTO  PIC 9(6).  
-          05 FILLER1  PIC X VALUE '|'.  
-          05 LOTE     PIC 9(4).  
-          05 FILLER2  PIC X VALUE '|'.  
-          05 VALIDADE     PIC 9(8).  
+          05 PRODUTO       PIC 9(6).  
+          05 FILLER1       PIC X VALUE '|'.  
+          05 LOTE          PIC 9(4).  
+          05 FILLER2       PIC X VALUE '|'.  
+          05 VALIDADE      PIC 9(8).  
        
        PROCEDURE DIVISION.  
        MOVE 123456 TO PRODUTO  
